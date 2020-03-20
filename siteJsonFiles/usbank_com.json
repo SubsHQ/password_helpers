@@ -1,0 +1,11 @@
+{
+  "login":{
+    "url":[
+      "https://onlinebanking.usbank.com/Auth/Login",
+      "https://www.usbank.com/"
+    ],
+    "container":".aw-authenticate, .aw-AuthContainer",
+    "email":"#aw-personal-id",
+    "password":"#aw-password"
+  }
+}
