@@ -1,0 +1,10 @@
+{
+  "login":{
+    "url":[
+      "https://www.suntrust.com/"
+    ],
+    "container":".suntrust-login-onlinebanking-form, .suntrust-signon-login-form",
+    "email":".suntrust-login-input, .suntrust-login-user-input",
+    "password":".suntrust-login-input .suntrust-login-password"
+  }
+}
