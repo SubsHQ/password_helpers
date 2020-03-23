@@ -1,0 +1,9 @@
+{
+  "login": {
+    "url": ["https://online.citi.com/US/login.do"],
+    "container": ".sign-on-form, .sign-on-module, .loginAdj",
+    "email": "#username",
+    "username": "#username",
+    "password": "#password"
+  }
+}

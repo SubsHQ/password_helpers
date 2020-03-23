@@ -1,0 +1,11 @@
+{
+  "login": {
+    "url": [
+      "https://www.53.com/content/fifth-third/en/login.html",
+      "https://www.53.com/content/fifth-third/en.html"
+    ],
+    "container": "div.login-block DIV",
+    "email": "#user-id",
+    "password": "#password"
+  }
+}
