@@ -1,0 +1,9 @@
+{
+  "login": {
+    "url": ["https://www.prosperitybankusa.com/"],
+    "container": "#login",
+    "email": "",
+    "username": "input[name='LoginName']",
+    "password": "input[name='Password']"
+  }
+}
