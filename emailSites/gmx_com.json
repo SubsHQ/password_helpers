@@ -1,0 +1,14 @@
+{
+	"register": {
+		"urlRegExp": "https:\/\/signup.gmx.com\/?.*",
+		"container": ".form__panels",
+		"username": ".email-alias-input__alias-input",
+		"password": "#password"
+	},
+	"login": {
+		"urlRegExp": "https:\/\/(?:www.)gmx.com\/?.*",
+		"container": ".login-box",
+		"email": "#login-email",
+		"password": "#login-password"
+	}
+}
