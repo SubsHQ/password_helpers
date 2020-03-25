@@ -1,11 +1,11 @@
 {
-  "login":{
-    "url":[
+  "login": {
+    "url": [
       "https://www.suntrust.com/",
       "https://login.onlinebanking.suntrust.com/olb/login"
     ],
-    "container":".suntrust-login-onlinebanking-form, .suntrust-login-form, .suntrust-signon-login-form",
-    "email":".suntrust-login-input, .suntrust-login-user-input, #userId",
-    "password":".suntrust-login-input, .suntrust-login-password, #password"
+    "container": ".suntrust-login-onlinebanking-form, .suntrust-login-form, .suntrust-signon-login-form",
+    "email": ".suntrust-login-input, .suntrust-login-user-input, #userId",
+    "password": ".suntrust-login-input, .suntrust-login-password, #password"
   }
 }

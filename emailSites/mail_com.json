@@ -6,7 +6,7 @@
 		"password": "#password"
 	},
 	"login": {
-		"urlRegExp": "https:\/\/(?:www.)mail.com\/?.*",
+		"urlRegExp": "https:\/\/(?:www.)*mail.com\/?.*",
 		"container": ".login-box",
 		"email": "#login-email",
 		"password": "#login-password"

@@ -1,6 +1,6 @@
 {
   "login": {
-      "urlRegExp": "https:\/\/(?:www.)prosperitybankusa.com\/?.*",
+    "urlRegExp": "https:\/\/(?:www.)*prosperitybankusa.com\/?.*",
     "container": "#login",
     "email": "",
     "username": "input[name='LoginName']",

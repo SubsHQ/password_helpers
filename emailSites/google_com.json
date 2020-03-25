@@ -12,5 +12,5 @@
     "email": "#identifierId",
     "username": "#identifierId",
     "password": "input[name='password']"
-   }
+  }
 }
