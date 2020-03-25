@@ -1,6 +1,6 @@
 {
   "login": {
-    "urlRegExp": "https://(?:www.)mynycb.com/?.*",
+    "urlRegExp": "https:\/\/(?:www.)mynycb.com\/?.*",
     "container": "#nycbLogin",
     "email": "#useridPLoginWP",
     "username": "#useridLoginWP",

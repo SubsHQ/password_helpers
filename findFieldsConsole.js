@@ -1,8 +1,10 @@
 function subsInit(d, w) {
-  if(!w.prompt) {
-    console.log('Prompt not available, choose email first, then username, then password, then done.');
+  if (!w.prompt) {
+    console.log(
+      "Prompt not available, choose email first, then username, then password, then done."
+    );
   }
-  const selector = d.createElement('div');
+  const selector = d.createElement("div");
   selector.style.width = "100px";
   selector.style.height = "100px";
   selector.style.background = "red";
@@ -14,11 +16,12 @@ function subsInit(d, w) {
   let username = "";
   let email = "";
   let container = "";
-  d.querySelector('body').appendChild(selector);
+  d.querySelector("body").appendChild(selector);
 
-  d.addEventListener('mousemove', function(e){
+  d.addEventListener("mousemove", function(e) {
     const target = e.target;
-    if(target.classList.contains('subshq-find-field-console-done-console')) return;
+    if (target.classList.contains("subshq-find-field-console-done-console"))
+      return;
     selector.style.width = `${target.offsetWidth}px`;
     selector.style.height = `${target.offsetHeight}px`;
     const rect = target.getBoundingClientRect();
@@ -27,13 +30,16 @@ function subsInit(d, w) {
   });
   function getUniqueSelector(el) {
     let unique = "";
-    if(el.id){
+    if (el.id) {
       return `#${el.id}`;
-    } else if(el.classList.length && el.getAttribute('class').indexOf("'") === -1) {
-      el.classList
+    } else if (
+      el.classList.length &&
+      el.getAttribute("class").indexOf("'") === -1
+    ) {
+      el.classList;
       unique = `${el.tagName.toLowerCase()}.${[...el.classList].join(".")}`;
       unique = unique.replace(/\'/g, `\\\\'`);
-      if(d.querySelectorAll(unique).length > 1 && el.parentElement) {
+      if (d.querySelectorAll(unique).length > 1 && el.parentElement) {
         return `${getUniqueSelector(el.parentElement)} ${unique}`;
       }
       return unique;
@@ -46,16 +52,18 @@ function subsInit(d, w) {
   function finished() {
     const code = JSON.stringify(
       {
-        "login":{
+        login: {
           url: [location.href],
           container,
           email,
           username,
           password
         }
-      }
-  , null, 2);
-    const pre = d.createElement('pre');
+      },
+      null,
+      2
+    );
+    const pre = d.createElement("pre");
     pre.style.position = "absolute";
     pre.style.top = "0";
     pre.style.height = "300px";
@@ -65,20 +73,21 @@ function subsInit(d, w) {
     pre.style.zIndex = 2147483649;
     pre.style.fontFamily = "monospace";
     pre.innerText = code;
-    pre.classList.add('subshq-find-field-console-done-console');
+    pre.classList.add("subshq-find-field-console-done-console");
     d.querySelector("body").prepend(pre);
   }
 
-  d.addEventListener('click', function(e){
+  d.addEventListener("click", function(e) {
     const target = e.target;
-    if(target.classList.contains('subshq-find-field-console-done-console')) return;
+    if (target.classList.contains("subshq-find-field-console-done-console"))
+      return;
     let which;
-    if(!w.prompt) {
-      console.log("Prompt not available. Alternative route!")
-      if(email) {
-        if(username) {
-          if(password) {
-            which = "done"
+    if (!w.prompt) {
+      console.log("Prompt not available. Alternative route!");
+      if (email) {
+        if (username) {
+          if (password) {
+            which = "done";
           } else {
             which = "p";
           }
@@ -89,23 +98,25 @@ function subsInit(d, w) {
         which = "e";
       }
     } else {
-      which = w.prompt("U for username field, E for email field, P for password field, \"DONE\" to finish");
+      which = w.prompt(
+        'U for username field, E for email field, P for password field, "DONE" to finish'
+      );
     }
-    if(which.toLowerCase() === "p") {
+    if (which.toLowerCase() === "p") {
       password = getUniqueSelector(target);
-      console.log('Password set');
-    } else if(which.toLowerCase() === "u") {
+      console.log("Password set");
+    } else if (which.toLowerCase() === "u") {
       username = getUniqueSelector(target);
-      console.log('Username set');
-    } else if(which.toLowerCase() === "e") {
+      console.log("Username set");
+    } else if (which.toLowerCase() === "e") {
       email = getUniqueSelector(target);
-      console.log('Email set');
-    } else if(which.toLowerCase() === "done") {
-      console.log('Done');
+      console.log("Email set");
+    } else if (which.toLowerCase() === "done") {
+      console.log("Done");
       finished();
       return;
     }
-    container = getUniqueSelector(target.closest('form').parentElement);
+    container = getUniqueSelector(target.closest("form").parentElement);
   });
 }
 

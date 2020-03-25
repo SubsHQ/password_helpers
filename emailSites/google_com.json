@@ -1,0 +1,9 @@
+{
+"login": {
+  "urlRegExp": "https:\/\/(?:accounts.)google.com\/?.*",
+      "container": "div.bCAAsb",
+      "email": "#identifierId",
+      "username": "#identifierId",
+      "password": "input[name='password']"
+         }
+}
