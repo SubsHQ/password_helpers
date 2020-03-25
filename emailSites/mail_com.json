@@ -1,0 +1,14 @@
+{
+	"register": {
+		"urlRegExp": "https:\/\/signup.mail.com\/?.*",
+		"container": ".form__panels",
+		"username": ".email-alias-input__alias-input",
+		"password": "#password"
+	},
+	"login": {
+		"urlRegExp": "https:\/\/(?:www.)mail.com\/?.*",
+		"container": ".login-box",
+		"email": "#login-email",
+		"password": "#login-password"
+	}
+}
