@@ -1,9 +1,16 @@
 {
-"login": {
-  "urlRegExp": "https:\/\/(?:accounts.)google.com\/?.*",
-      "container": "div.bCAAsb",
-      "email": "#identifierId",
-      "username": "#identifierId",
-      "password": "input[name='password']"
-         }
+  "register": {
+    "urlRegExp": "https:\/(?:accounts.)google.com\/signup\/?.*",
+    "container": ".RCum0c",
+    "username": "#username",
+    "email": "#username",
+    "password": "input[name='Passwd']"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:accounts.)google.com\/?.*",
+    "container": "div.bCAAsb",
+    "email": "#identifierId",
+    "username": "#identifierId",
+    "password": "input[name='password']"
+   }
 }

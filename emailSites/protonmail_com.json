@@ -1,0 +1,16 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:mail.)protonmail.com\/create\/?.*",
+    "container": ".signupUserForm-container",
+    "username": "#username",
+    "email": "#username",
+    "password": "#password"
+   },
+  "login": {
+    "urlRegExp": "https:\/\/(?:mail.)protonmail.com\/login\/?.*",
+    "container": "div.pmpanel-login__inner",
+    "email": "#username",
+    "username": "#username",
+    "password": "#password"
+  }
+}
