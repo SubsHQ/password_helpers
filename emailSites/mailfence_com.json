@@ -4,7 +4,7 @@
 		"container": ".newAccount",
 		"username": "input#username",
 		"email": "input#email",
-		"password": "#input#password"
+		"password": "input#password"
 	},
 	"login": {
 		"urlRegExp": "https:\/\/(?:www.)*mailfence.com\/?.*",

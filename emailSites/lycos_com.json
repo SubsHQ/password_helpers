@@ -3,7 +3,7 @@
 		"urlRegExp": "https:\/\/registration.lycos.com\/?.*",
 		"container": ".newAccount",
 		"username": "input#m_U.regInput1",
-		"password": "#input#m_P.regInput"
+		"password": "input#m_P.regInput"
 	},
 	"login": {
 		"urlRegExp": "https:\/\/(?:mail.)*lycos.com\/?.*",
