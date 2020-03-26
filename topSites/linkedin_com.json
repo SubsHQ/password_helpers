@@ -1,0 +1,15 @@
+{
+    "register": {
+        "urlRegExp": "https:\/\/(?:www.)*linkedin.com\/?.*",
+        "container": ".newAccount",
+        "username": "input#username",
+        "password": "input#password"
+    },
+    "login": {
+        "urlRegExp": "https:\/\/(?:www.)*linkedin.com\/?.*",
+        "container": ".join-form__form-input-container",
+        "email": "input#email-address",
+        "username": "input#email-address",
+        "password": "input#password"
+    }
+}
