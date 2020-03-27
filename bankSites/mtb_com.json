@@ -1,7 +1,7 @@
 {
   "login": {
     "url": ["https://www.mtb.com/home-page"],
-    "container": ".login-form",
+    "container": ".login-form, , .js-personal",
     "email": "#OLB_UserId_Header, #OLB_UserID-Widget",
     "password": "#OLB_Passcode_Header, OLB_Passcode_Widget"
   }

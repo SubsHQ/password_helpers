@@ -2,7 +2,7 @@
   "login": {
     "urlRegExp": "https:\/\/(?:www.)*hancockwhitney.com\/?.*",
     "container": ".ob-login",
-    "username": "#login-username-157338402273746",
-    "password": "#login-password-157338402273746"
+    "username": "[id^='login-username']",
+    "password": "[id^='login-password']"
   }
 }
