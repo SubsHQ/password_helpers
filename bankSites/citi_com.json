@@ -1,8 +1,7 @@
 {
   "login": {
-    "url": ["https://online.citi.com/US/login.do"],
-    "container": ".sign-on-form, .sign-on-module, .loginAdj",
-    "email": "#username",
+    "urlRegExp": "https:\/\/(?:online.)citi.com\/?.*",
+    "container": ".sign-on-form, #logInForm, .sign-on-module, .loginAdj",
     "username": "#username",
     "password": "#password"
   }
