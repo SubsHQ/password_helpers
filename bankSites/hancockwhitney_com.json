@@ -1,8 +1,8 @@
 {
   "login": {
-    "urlRegExp": "https:\/\/(?:www.)*hancockwhitney.com\/?.*",
-    "container": ".via-login-hero-box .ob-login .ob-login__container, .ob-login--visible",
-    "username": "[id^='login-username'], ob-login__input--username",
-    "password": "[id^='login-password']"
+    "urlRegExp": "https:\/\/(?:www.)*santanderbank.com\/?.*",
+    "container": "div.contentPop",
+    "username": "[id$='.alias']",
+    "password": "[id$='.pwd']"
   }
 }
