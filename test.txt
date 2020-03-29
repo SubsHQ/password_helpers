@@ -1,0 +1,1 @@
+iwanttoentercustomjsoninformationintothisinput{"login":{"urlRegExp":"https:\/\/(?:www.)?mynycb.com\/?.*","container":"#nycbLogin, .personalTabContent, .HeaderLoginDisplay","username":"#useridLoginWP, #useridPLoginWP","password":""}}
