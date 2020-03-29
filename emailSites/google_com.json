@@ -1,15 +1,13 @@
 {
   "register": {
-    "urlRegExp": "https:\/(?:accounts.)google.com\/signup\/?.*",
-    "container": ".RCum0c",
+    "urlRegExp": "https:\/(?:accounts.)?google.com\/signup\/?.*",
+    "container": "form",
     "username": "#username",
-    "email": "#username",
     "password": "input[name='Passwd']"
   },
   "login": {
-    "urlRegExp": "https:\/\/(?:accounts.)google.com\/?.*",
-    "container": "div.bCAAsb",
-    "email": "#identifierId",
+    "urlRegExp": "https:\/\/(?:accounts.)?google.com\/?.*",
+    "container": "div.bCAAsb, form",
     "username": "#identifierId",
     "password": "input[name='password']"
   }
