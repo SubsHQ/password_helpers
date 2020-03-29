@@ -1,12 +1,8 @@
 {
   "login": {
-    "url": [
-      "https://www.umpquabank.com/",
-      "https://online.umpquabank.com/umpquabankonline/Uux.aspx#/login/split-login-password-entry"
-    ],
-    "container": "div.js-stepper-item.login__form.login__step.col-xs-24.col-md-offset-3.col-md-18.-active, login-form",
-    "email": "",
-    "username": "#home-personal-loginid",
-    "password": "#ember1295"
+    "urlRegExp": "https:\/\/(?:online.|www.)?umpquabank.com\/?.*",
+    "container": "div.js-stepper-item.login__form.login__step.col-xs-24.col-md-offset-3.col-md-18.-active, div.password.field, .login-form, #home-personal-form, .returning-login__content",
+    "username": "#home-personal-loginid, #fldUsername, #personal-loginid",
+    "password": "#ember1295, #fldPassword"
   }
 }
