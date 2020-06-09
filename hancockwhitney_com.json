@@ -1,8 +1,8 @@
 {
   "login": {
-    "urlRegExp": "https:\/\/(?:www.)*hancockwhitney.com\/?.*",
-    "container": ".via-login-hero-box .ob-login .ob-login__container, .ob-login--visible",
-    "username": "[id^='login-username'], ob-login__input--username",
-    "password": "[id^='login-password']"
+    "urlRegExp": "https://(?:www.)hancockwhitney.com/?.*",
+    "container": ".ob-login",
+    "username": "#login-username-157338402273746",
+    "password": "#login-password-157338402273746"
   }
 }

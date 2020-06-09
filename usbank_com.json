@@ -1,8 +1,11 @@
 {
-  "login": {
-    "urlRegExp": "https:\/\/(?:onlinebanking.|www.)?usbank.com\/?.*",
-    "container": ".aw-authenticate, .aw-AuthContainer, .main-form",
-    "username": "#aw-personal-id",
-    "password": "#aw-password"
+  "login":{
+    "url":[
+      "https://onlinebanking.usbank.com/Auth/Login",
+      "https://www.usbank.com/"
+    ],
+    "container":".aw-authenticate, .aw-AuthContainer",
+    "email":"#aw-personal-id",
+    "password":"#aw-password"
   }
 }

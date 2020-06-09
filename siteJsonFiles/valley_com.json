@@ -1,9 +1,0 @@
-{
-  "login": {
-    "url": ["https://www.valley.com/sign-in/personal-small-business-banking"],
-    "container": "div.row.listing-component div.small-12.medium-6.large-5.columns, #loginForm",
-    "email": "#userid",
-    "username": "#userid",
-    "password": "#password"
-  }
-}

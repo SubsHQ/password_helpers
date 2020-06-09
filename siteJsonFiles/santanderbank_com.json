@@ -1,9 +1,0 @@
-{
-  "login": {
-    "url": ["https://www.santanderbank.com/us/personal"],
-    "container": "div.contentPop",
-    "email": "#_T002_Menu_56_INSTANCE_Lprg4No4xe5S_entrada.alias",
-    "username": "#_T002_Menu_56_INSTANCE_Lprg4No4xe5S_entrada.alias",
-    "password": "#_T002_Menu_56_INSTANCE_Lprg4No4xe5S_entrada.pwd"
-  }
-}

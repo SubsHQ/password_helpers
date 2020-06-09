@@ -1,9 +1,0 @@
-{
-  "login": {
-    "urlRegExp": "https://(?:www.)arvest.com/?.*",
-    "container": "div.login-fields.login-fields-nav.clearfix.dismissible",
-    "email": "#olblogin_nav, #aoblogon_userid",
-    "username": "#olblogin_nav, #aoblogon_userid",
-    "password": ""
-  }
-}
