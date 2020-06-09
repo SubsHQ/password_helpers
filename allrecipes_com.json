@@ -1,0 +1,27 @@
+{
+    "register": {
+        "url": [
+            "https://www.allrecipes.com/account/signup/"
+        ],
+        "container": "#register .register",
+        "username": "#txtDisplayName",
+        "email": "#txtEmail",
+        "password": "#password",
+        "passwordRequirements": {
+            "min": 9,
+            "max": 500,
+            "upper": 1,
+            "lower": 1,
+            "number": 1,
+            "special": 1
+        }
+    },
+    "login": {
+        "url": [
+            "https://www.allrecipes.com/account/signin/"
+        ],
+        "container": "#account_login .login",
+        "email": "#txtUserNameOrEmail",
+        "password": "#password"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*independent.co.uk\/?.*",
+    "container": "#form-login",
+    "email": "#form-login-email",
+    "password": "#form-login-password"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "login": {
+    "urlRegExp": [
+      "https:\/\/pantheon.auth0.com\/login.*"
+    ],
+    "container": "div.auth0-lock-center",
+    "email": "input[name=email]",
+    "password": "input[name=password]"
+  }
+}

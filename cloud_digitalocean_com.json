@@ -1,0 +1,8 @@
+{
+  "login": {
+    "url": ["https://cloud.digitalocean.com/login"],
+    "container": "body.login",
+    "email": "#user_email",
+    "password": "#user_password"
+  }
+}

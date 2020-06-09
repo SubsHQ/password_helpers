@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "urlRegExp": "https:\/\/(?:www.)?dropbox.com\/.*",
+      "container": ".form_shown.login-form-container.register.standard",
+      "email":  "input.text-input-input[name='email']",
+      "password": "input.text-input-input.password-input[name='password']"
+    },
+  "login":
+    {
+      "urlRegExp": "https:\/\/(?:www.)?dropbox.com\/.*",
+      "container": ".login-register-container, .login-form-container",
+      "email": "input.text-input-input[name='login_email']",
+      "password": "input.text-input-input.password-input[name='login_password']"
+    }
+}

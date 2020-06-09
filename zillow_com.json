@@ -1,0 +1,26 @@
+{
+    "register": {
+        "url": [
+            "https://www.zillow.com/"
+        ],
+        "container": ".user-account.register .module-body",
+        "email": "#inputs-newEmail",
+        "password": "#password",
+        "passwordRequirements": {
+            "min": 8,
+            "max": 128,
+            "upper": 1,
+            "lower": 1,
+            "number": 1,
+            "special": 1
+        }
+    },
+    "login": {
+        "url": [
+            "https://www.zillow.com/"
+        ],
+        "container": ".user-account.login .module-body",
+        "email": "#reg-login-email",
+        "password": "#inputs-password"
+    }
+}

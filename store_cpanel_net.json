@@ -1,0 +1,17 @@
+{
+  "register": 
+    {
+      "url": ["https://store.cpanel.net/login/register"],
+      "container": "#cpanel-loading-overlay",
+      "email":  "#email",
+      "password": "#password",
+      "passwoRepete": "#confirm_password"
+    },
+  "login":
+    {
+      "url": ["https://store.cpanel.net/login/"],
+      "container": "#cpanel-loading-overlay",
+      "email": "#email",
+      "password": "#password"
+    }
+}

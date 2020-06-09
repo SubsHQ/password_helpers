@@ -1,0 +1,17 @@
+{
+  "register": 
+    {
+      "url": ["https://github.com/join"],
+      "container": ".container-sm",
+      "username": "user_login",
+      "email":  "#user_email",
+      "password": "#user_password"
+    },
+  "login":
+  {
+    "url": ["https://github.com/login"],
+    "container": "#login",
+    "email": "#login_field",
+    "password": "#password"
+  }
+}

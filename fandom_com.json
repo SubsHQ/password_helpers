@@ -1,0 +1,15 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.)*fandom.com\/register?.*",
+    "container": "#signupForm",
+    "email": "#signupEmail",
+    "username": "#signupUsername",
+    "password": "#signupPassword"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*fandom.com\/signin?.*",
+    "container": "#loginForm",
+    "username": "#loginUsername",
+    "password": "#loginPassword"
+  }
+}

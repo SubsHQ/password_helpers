@@ -1,0 +1,26 @@
+{
+    "register": {
+        "url": [
+            "https://quizlet.com/"
+        ],
+        "container": ".UIModal-box .UIModalBody",
+        "username": "#username",
+        "password": "#password1",
+        "email": "#email",
+        "passwordRequirements": {
+            "min": 8,
+            "upper": 1,
+            "lower": 1,
+            "number": 1,
+            "special": 1
+        }
+    },
+    "login": {
+        "url": [
+            "https://quizlet.com/"
+        ],
+        "container": ".UIModal-box .UIModalBody",
+        "username": "#username",
+        "password": "#password"
+    }
+}

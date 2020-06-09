@@ -1,0 +1,11 @@
+{
+  "login": {
+    "urlRegExp": [
+      "https:\/\/sso.godaddy.com\/login.*"
+    ],
+    "container": "#form-container",
+    "email": "#username",
+    "username": "",
+    "password": "#password"
+  }
+}

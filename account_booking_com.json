@@ -1,0 +1,15 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:account.|www.)*booking.com\/register?.*",
+    "container": "#root",
+    "email": "#login_name_register",
+    "password": "#login_name_register",
+    "passwordRepete": "#confirmed_password"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:account.|www.)*booking.com\/sign-in?.*",
+    "container": "#root",
+    "email": "#username",
+    "password": "#password"
+  }
+}

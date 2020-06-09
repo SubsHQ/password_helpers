@@ -1,0 +1,19 @@
+{
+  "register": 
+    {
+      "url": ["https://www.liveleak.com/user?a=register"],
+      "container": ".create_form_main",
+      "username": "input[name='name']",
+      "email": "input[name='email1']",
+      "emailRepeat": "input[name='email2']",
+      "password": "input[name='password1']",
+      "passwordRepeat": "input[name='password2']"
+    },
+  "login":
+    {
+      "url": ["https://www.liveleak.com/user?a=login"],
+      "container": ".create_form_main",
+      "username": "input[name='user_name']",
+      "password": "input[name='user_password']"
+    }
+}

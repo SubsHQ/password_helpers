@@ -1,0 +1,17 @@
+{
+  "register": 
+    {
+      "url": ["https://accounts.firefox.com/signup"],
+      "container": "#main-content",
+      "email":  "#email tooltip-below",
+      "password": "#password",
+      "passwodRepete": "#vpassword"
+    },
+  "login":
+    {
+      "url": ["https://accounts.firefox.com/signin"],
+      "container": "#main-content",
+      "email": ".success",
+      "password": "#password"
+    }
+}

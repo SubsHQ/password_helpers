@@ -1,0 +1,10 @@
+{
+  "login": {
+    "url": [
+      "https://codepen.io/login"
+    ],
+    "container": "div.login-area",
+    "email": "#login-email-field",
+    "password": "#login-password-field_"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*santanderbank.com\/?.*",
+    "container": "div.contentPop",
+    "username": "[id$='.alias']",
+    "password": "[id$='.pwd']"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://auth.services.adobe.com/en_US/index.html"],
+      "container": ".Signup",
+      "email": "#Signup-EmailField",
+      "password": "#Signup-PasswordField"
+    },
+  "login":
+    {
+      "url": ["https://auth.services.adobe.com/en_US/index.html"],
+      "container": "EmailPage",
+      "email": "#EmailPage-EmailField",
+      "password": "#input[type='password']"
+    }
+}

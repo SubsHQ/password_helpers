@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:ibx.)*key.com\/?.*",
+    "container": ".signin-block",
+    "username": "#logUidTxt",
+    "password": "#logPwdTxt"
+  }
+}

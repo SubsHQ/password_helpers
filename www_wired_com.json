@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://www.wired.com/account/sign-up"],
+      "container": "#main-content",
+      "email":  "#account-sign-up-page-form-text-field-email",
+      "password": "#account-sign-up-page-form-text-field-password"
+    },
+  "login":
+    {
+      "url": ["https://www.wired.com/account/sign-in"],
+      "container": "#main-content",
+      "email": "#account-sign-in-page-form-text-field-email",
+      "password": "#account-sign-in-page-form-text-field-password"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "login": {
+        "urlRegExp": "https:\/\/(?:secure1.)?(?:store.)?apple.com\/?.*",
+        "container": "#sign_in_form, #signin, #signin-form-fields",
+        "email": "#account_name_text_field, #loginHome\\.customerLogin\\.appleId",
+        "password": "#password_text_field, #loginHome\\.customerLogin\\.password"
+    }
+}

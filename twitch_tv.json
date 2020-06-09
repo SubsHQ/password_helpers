@@ -1,0 +1,18 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.)?twitch.tv\/.*",
+    "container": ".ReactModalPortal",
+    "username": "#signup-username",
+    "email": "#email-input",
+    "password": "div[data-a-target='signup-password-input'] #password-input"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)?twitch.tv\/.*",
+    "container": ".ReactModalPortal",
+    "username": "#login-username",
+    "password": "div[data-a-target='login-password-input'] #password-input"
+  },
+  "passwordResetLink": {
+    "url": ["https://www.twitch.tv/user/account-recovery"]
+  }
+}

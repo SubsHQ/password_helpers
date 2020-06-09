@@ -1,0 +1,26 @@
+{
+    "register": {
+        "urlRegExp": "https:\/\/(?:www.)bestbuy.com\/identity\/newAccount?.*",
+        "container": ".cia-form, cia-create-account-form, .cia-main-container",
+        "first": "#fld-firstName",
+        "last": "#fld-lastName",
+        "email": "#fld-e",
+        "password": "#fld-p1",
+        "passwordRepeat": "#fld-p2",
+        "phone": "#fld-phone",
+        "passwordRequirements": {
+            "min": 8,
+            "max": 54,
+            "upper": 1,
+            "lower": 1,
+            "number": 1,
+            "special": 1
+        }
+    },
+    "login": {
+        "urlRegExp": "https:\/\/(?:www.)bestbuy.com\/identity\/signin?.*",
+        "container": ".cia-main-container .cia-signin",
+        "username": "#fld-e",
+        "password": "#fld-p1"
+    }
+}

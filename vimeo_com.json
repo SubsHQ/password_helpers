@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://vimeo.com/"],
+      "container": "#registration_forms",
+      "email":  "#signup_email",
+      "password": "#signup_password"
+    },
+  "login":
+    {
+      "url": ["https://vimeo.com/"],
+      "container": "body",
+      "email": "#signup_email",
+      "password": "#login_password"
+    }
+}

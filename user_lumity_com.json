@@ -1,0 +1,10 @@
+{
+  "login": {
+    "url": [
+      "https://user.lumity.com/login"
+    ],
+    "container": "div.session",
+    "email": "fieldset.form-width-med div.form-group div.AF-input-block input.AF-input",
+    "password": "fieldset.form-width-med div.form-group div.AF-input-block DIV input.AF-input"
+  }
+}

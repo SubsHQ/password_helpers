@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://moz.com/login"],
+      "container": ".forge-embedded",
+      "email":  ".forge-form-control",
+      "password": "#forge-form-control"
+    },
+  "login":
+    {
+      "url": ["https://moz.com/checkout/freetrial"],
+      "container": ".forge-embedded forge-card-body",
+      "email": ".forge-form-control",
+      "password": ".forge-form-control"
+    }
+}

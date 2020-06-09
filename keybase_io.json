@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)?keybase.io\/?.*",
+    "container": "#modal-dialog-session-form",
+    "email": "#username",
+    "password": "#password"
+  }
+}

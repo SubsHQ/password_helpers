@@ -1,0 +1,17 @@
+{
+  "register": 
+    {
+      "url": ["https://www.slideshare.net/w/signup/organization"],
+      "container": ".org-signup-container",
+      "email": "#j-user-email",
+      "username": "#j-user-login",
+      "password": "#j-user-password"
+    },
+  "login":
+    {
+      "url": ["https://www.slideshare.net/login"],
+      "container": ".panel sign-panel radius",
+      "email": "#user_login",
+      "password": "#user_password"
+    }
+}

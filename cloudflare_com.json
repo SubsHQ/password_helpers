@@ -1,0 +1,14 @@
+{
+    "register": {
+        "urlRegExp": "https:\/\/(?:dash.)cloudflare.com\/sign-up\/?.*",
+        "container": "form[data-testid='signip-form']",
+        "email": "input[data-testid='signup-input-email']",
+        "password": "input[data-testid='signup-input-password']"
+    },
+    "login": {
+        "urlRegExp": "https:\/\/(?:dash.)cloudflare.com\/login\/?.*",
+        "container": "form[data-testid='login-form']",
+        "email": "input[name='email']",
+        "password": "input[name='password']"
+    }
+}

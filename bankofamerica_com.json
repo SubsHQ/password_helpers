@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.|staticweb.)?bankofamerica.com\/?.*",
+    "container": "#signInModule, #skip_to_signin, #newOnlineId",
+    "username": "#onlineId1, #btCustomOnlineId",
+    "password": "#passcode1, #btCustomPasscode"
+  }
+}

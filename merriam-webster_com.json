@@ -1,0 +1,26 @@
+{
+    "register": {
+        "url": [
+            "https://www.merriam-webster.com/register"
+        ],
+        "container": ".main-wrapper #user-registration",
+        "email": "#ul-email",
+        "username": "#ul-username",
+        "password": "#ul-password",
+        "passwordRequirements": {
+            "min": 8,
+            "upper": 1,
+            "lower": 1,
+            "number": 1,
+            "special": 1
+        }
+    },
+    "login": {
+        "url": [
+            "https://www.merriam-webster.com/login"
+        ],
+        "container": ".main-wrapper #user-sign-in",
+        "email": "#ul-email",
+        "password": "#ul-password"
+    }
+}

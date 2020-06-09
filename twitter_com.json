@@ -1,0 +1,16 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.)?twitter.com\/i\/flow\/signup?.*",
+    "container": "#react-root",
+    "email": "[name='email']",
+    "username": "[name='name']",
+    "password": "[type='password']"
+
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)?twitter.com\/?.*",
+    "container": "[action='/sessions'], [aria-label='Login']",
+    "email": "[name='session[username_or_email]']",
+    "password": "[type='password']"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.|store.)cpanel.net\/login/register?.*",
+    "container": "#account-registration",
+    "email": "#email",
+    "password": "#password",
+    "passwordRepeat": "#confirm_password"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.|store.)cpanel.net\/login?.*",
+    "container": "#login-form",
+    "email": "#email",
+    "password": "#password"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://login.xfinity.com/login"],
+      "container": "#right",
+      "email":  "#user",
+      "password": "#passwd"
+    },
+  "login":
+    {
+      "url": ["https://login.xfinity.com/login"],
+      "container": "#right",
+      "email": "#user",
+      "password": "#passwd"
+    }
+}

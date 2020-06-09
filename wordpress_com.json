@@ -1,0 +1,15 @@
+{
+  "register": {
+    "url": ["https://wordpress.com/start/user"],
+    "container": ".logged-out-form",
+    "email": "#email",
+    "username": "#username",
+    "password": "#password"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*wordpress.com\/log-in?.*",
+    "container": ".wp-login__container",
+    "email": "#usernameOrEmail",
+    "password": "#password"
+  }
+}

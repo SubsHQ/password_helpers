@@ -1,0 +1,15 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.)*imdb.com\/ap\/register?.*",
+    "container": ".a-section",
+    "email": "#ap_email",
+    "password": "#ap_password",
+    "passwordRepeat": "#ap_password_check"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*imdb.com\/ap\/signin?.*",
+    "container": "#authportal-main-section > div:nth-child(2) > div > div > form, .a-spacing-none fwcim-form",
+    "email": "#ap_email",
+    "password": "#ap_password"
+  }
+}

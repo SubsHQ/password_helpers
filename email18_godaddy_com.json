@@ -1,0 +1,9 @@
+{
+  "login":
+  {
+    "urlRegExp": "https:\/\/email[0-9]{1,2}.godaddy.com.*",
+    "email": "#doesnotexist",
+    "password": "#doesnotexist",
+    "container": "body"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.)*issuu.com\/signup?.*",
+    "container": "[class^='Form__FormWrapper']",
+    "email": "[type='email']",
+    "password": "[type='password']"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*issuu.com\/signin?.*",
+    "container": "#login-form",
+    "email": "#login-username",
+    "password": "#login-password"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "register": 
+    {
+      "url": ["https://users.wix.com/signin"],
+      "container": "signup",
+      "email":  "#input_6",
+      "emailRepete": "#input_7",
+      "password": "#input_8",
+      "passwordRepete": "#input_9"
+    },
+  "login":
+    {
+      "url": ["https://users.wix.com/signin"],
+      "container": "#container",
+      "email": "#input_4",
+      "password": "#input_5"
+    }
+}

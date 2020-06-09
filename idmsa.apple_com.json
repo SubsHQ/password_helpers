@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(idmsa.apple.com\/?.*",
+    "container": "#sign_in_form, #signin",
+    "email": "#account_name_text_field",
+    "password": "#password_text_field"
+  }
+}

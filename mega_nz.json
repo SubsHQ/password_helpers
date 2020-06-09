@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://mega.nz/register"],
+      "container": ".main-left-block",
+      "email":  "#register-email-registerpage2",
+      "password": "#register-password-registerpage2"
+    },
+  "login":
+    {
+      "url": ["https://mega.nz/"],
+      "container": ".top-login-pad login",
+      "email": "#login-name",
+      "password": "#login-password"
+    }
+}

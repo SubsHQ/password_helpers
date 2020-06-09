@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["abcya.com"],
+      "container": ".subscribe",
+      "email":  "#email",
+      "password": "#password"
+    },
+  "login":
+    {
+      "url": ["https://www.abcya.com/"],
+      "container": "#class",
+      "email": "#email",
+      "password": "#password"
+    }
+}

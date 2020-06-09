@@ -1,0 +1,27 @@
+{
+    "register": {
+        "url": [
+            "https://login.mapquest.com/account/create"
+        ],
+        "container": ".login-box #account-attributes-challenge",
+        "first": "#usernamereg-firstName",
+        "last": "#usernamereg-lastName",
+        "email": "#usernamereg-email",
+        "password": "#usernamereg-password",
+        "passwordRequirements": {
+            "min": 9,
+            "upper": 1,
+            "lower": 1,
+            "number": 1,
+            "special": 1
+        }
+    },
+    "login": {
+        "url": [
+            "https://login.mapquest.com/"
+        ],
+        "container": ".login-body  .login-box",
+        "email": "#login-username",
+        "password": "input[type='password']"
+    }
+}

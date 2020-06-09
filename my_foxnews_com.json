@@ -1,0 +1,28 @@
+{
+    "register": {
+        "url": [
+            "https://my.foxnews.com/?p=create-account"
+        ],
+        "container": ".foxid-create .foxid-content",
+        "first": ".foxid-input-text[name='firstName']",
+        "last": ".foxid-input-text[name='lastName']",
+        "username": ".foxid-input-text[name='displayName']",
+        "email": ".foxid-input-text[name='email']",
+        "password": ".foxid-input-password[name='password']",
+        "passwordRequirements": {
+            "min": 9,
+            "upper": 1,
+            "lower": 1,
+            "number": 1,
+            "special": 1
+        }
+    },
+    "login": {
+        "url": [
+            "https://my.foxnews.com/"
+        ],
+        "container": ".foxid-login .foxid-content",
+        "email": ".foxid-input-text[name='email']",
+        "password": ".foxid-input-password[name='password']"
+    }
+}

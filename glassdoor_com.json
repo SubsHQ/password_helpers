@@ -1,0 +1,21 @@
+{
+    "register": {
+        "url": [
+            "https://www.glassdoor.com/index.htm"
+        ],
+        "container": ".modal_content .signup",
+        "email": "#userEmail",
+        "password": "#userPassword",
+        "passwordRequirements": {
+            "min": 8
+        }
+    },
+    "login": {
+        "url": [
+            "https://www.glassdoor.com/index.htm"
+        ],
+        "container": "#LoginModal .modal_content",
+        "email": "#userEmail",
+        "password": "#userPassword"
+    }
+}

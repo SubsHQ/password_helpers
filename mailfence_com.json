@@ -1,0 +1,15 @@
+{
+	"register": {
+		"urlRegExp": "https:\/\/(?:www.)*mailfence.com\/#register?.*",
+		"container": ".newAccount",
+		"username": "input#username",
+		"email": "input#email",
+		"password": "input#password"
+	},
+	"login": {
+		"urlRegExp": "https:\/\/(?:www.)*mailfence.com\/?.*",
+		"container": "#top-nav",
+		"username": "input#UserId",
+		"password": "input#password"
+	}
+}

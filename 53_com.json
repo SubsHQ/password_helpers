@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)?53.com\/?.*",
+    "container": "div.login-block, div.c-login__form, .form",
+    "email": "#user-id",
+    "password": "#password"
+  }
+}

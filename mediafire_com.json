@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://www.mediafire.com/upgrade/registration.php"],
+      "container": "#loginLink",
+      "email":  "#reg_email",
+      "password": "#reg_pass"
+    },
+  "login":
+    {
+      "url": ["https://www.mediafire.com/login/"],
+      "container": "#emailLogin",
+      "email": "#widget_login_email",
+      "password": "#widget_login_pass"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "register": {
+        "url": [
+            "https://genius.com/signup"
+        ],
+        "container": ".sign_up_unit .sign_up_form_unit",
+        "username": "#user_login",
+        "email": "#user_email",
+        "password": "#user_password",
+        "passwordRequirements": {
+            "min": 8,
+            "max": 30,
+            "upper": 1,
+            "lower": 1,
+            "number": 1,
+            "special": 1
+        }
+    },
+    "login": {
+        "url": [
+            "https://genius.com/signup"
+        ],
+        "container": ".content .login_unit",
+        "email": "#user_session_login",
+        "password": "#user_session_password"
+    }
+}

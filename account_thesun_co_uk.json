@@ -1,0 +1,14 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:account.|www.)thesun.co.uk\/reg\/PartialReg?.*",
+    "container": "#auth0-lock-container-1 > div > div.auth0-lock-center > form",
+    "email": "#auth0-lock-container-1 > div > div.auth0-lock-center > form > div > div > div:nth-child(3) > span > div > div > div > div > div > div > div > div > div:nth-child(3) > div.auth0-lock-input-block.auth0-lock-input-email > div > div > input",
+    "password": "#auth0-lock-container-1 > div > div.auth0-lock-center > form > div > div > div:nth-child(3) > span > div > div > div > div > div > div > div > div > div:nth-child(3) > div.auth0-lock-input-block.auth0-lock-input-show-password > div.auth0-lock-input-block.auth0-lock-input-password > div > div > input"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:account.|www.)thesun.co.uk\/login?.*",
+    "container": "#auth0-lock-container-1 > div > div.auth0-lock-center > form",
+    "email": "#auth0-lock-container-1 > div > div.auth0-lock-center > form > div > div > div:nth-child(3) > span > div > div > div > div > div > div > div > div > div:nth-child(3) > div.auth0-lock-input-block.auth0-lock-input-email > div > div > input",
+    "password": "#auth0-lock-container-1 > div > div.auth0-lock-center > form > div > div > div:nth-child(3) > span > div > div > div > div > div > div > div > div > div:nth-child(3) > div.auth0-lock-input-block.auth0-lock-input-show-password > div.auth0-lock-input-block.auth0-lock-input-password > div > div > input"
+  }
+}

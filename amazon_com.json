@@ -1,0 +1,15 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.)amazon.com\/ap\/register?.*",
+    "container": ".a-box.a-spacing-extra-large",
+    "email": "#ap_email",
+    "password": "#ap_password",
+    "passwordRepete": "ap_password_check"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)amazon.com\/ap\/signin.*",
+    "container": "#authportal-main-section div.a-section.auth-pagelet-container div.a-section.a-spacing-base div.a-section, div.a-box-inner.a-padding-extra-large",
+    "email": "#ap_email",
+    "password": "#ap_password"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "register": {
+    "url": ["https://www.reddit.com/register/"],
+    "container": ".PageColumn .ColumnContainer",
+    "username": "#regUsername",
+    "email": "#regEmail",
+    "password": "#regPassword",
+    "passwordRequirements": {
+      "min": 6,
+      "upper": 1,
+      "lower": 1,
+      "number": 1,
+      "special": 1
+    }
+  },
+  "login": {
+    "url": ["https://www.reddit.com/login/"],
+    "container":  ".PageColumn .ColumnContainer",
+    "username": "#loginUsername",
+    "password": "#loginPassword"
+  }
+}

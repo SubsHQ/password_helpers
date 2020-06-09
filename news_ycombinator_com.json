@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/news.ycombinator.com\/login.*",
+    "container": "body",
+    "username": "form[action='login'] input[name='acct']",
+    "password": "form[action='login'] input[name='pw']"
+  }
+}

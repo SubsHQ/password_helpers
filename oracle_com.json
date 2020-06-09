@@ -1,0 +1,17 @@
+{
+  "register": 
+    {
+      "url": ["https://profile.oracle.com/myprofile/account/create-account.jspx"],
+      "container": "#s5",
+      "email":  "#email::content",
+      "password": "#password::content",
+      "passwordRepete": "retypePassword::content"
+    },
+  "login":
+    {
+      "url": ["https://login.oracle.com/oaam_server/login"],
+      "container": "#signOnCreds",
+      "email": "#userid",
+      "password": "#pass"
+    }
+}

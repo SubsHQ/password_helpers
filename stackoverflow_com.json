@@ -1,0 +1,14 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/stackoverflow.com\/users\/signup.*",
+    "container": "#formContainer",
+    "email": "#email",
+    "password": "#password"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/stackoverflow.com\/users\/login.*",
+    "container": "#formContainer",
+    "email": "#email",
+    "password": "#password"
+  }
+}

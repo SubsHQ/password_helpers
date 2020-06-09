@@ -1,0 +1,15 @@
+{
+  "register": 
+    {
+      "url": ["https://www.zulily.com/#"],
+      "container": ".form",
+      "email": "#signup_email"
+    },
+  "login":
+    {
+      "url": ["https://www.zulily.com/#"],
+      "container": ".form.loginBox",
+      "email": "#signin_email",
+      "password": "#signin_password"
+    }
+}

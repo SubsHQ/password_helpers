@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://dash.cloudflare.com/sign-up"],
+      "container": "#react-root",
+      "email":  "#c_eb",
+      "password": "#c_eb"
+    },
+  "login":
+    {
+      "url": ["https://dash.cloudflare.com/login"],
+      "container": "#react-root",
+      "email": "#c_eb",
+      "password": "#c_eb"
+    }
+}

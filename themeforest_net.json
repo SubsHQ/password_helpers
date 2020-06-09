@@ -1,0 +1,15 @@
+{
+  "register": 
+    {
+      "url": ["https://themeforest.net/sign_up"],
+      "container": ".sso-form--sign-up",
+      "email": "#sso_sign_up_form_email"
+    },
+  "login":
+    {
+      "url": ["https://themeforest.net/sign_in"],
+      "container": ".sso-form--sign-in",
+      "email": "#sso_sign_in_form_username",
+      "password": "#sso_sign_in_form_password"
+    }
+}

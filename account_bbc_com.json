@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://account.bbc.com/register/details"],
+      "container": ".page__content",
+      "email":  "#password-input",
+      "password": "#user-identifier-input"
+    },
+  "login":
+    {
+      "urlRegExp": "https:\/\/account.bbc.com\/signin.*",
+      "container": "#signin-page",
+      "email": "#user-identifier-input",
+      "password": "#password-input"
+    }
+}

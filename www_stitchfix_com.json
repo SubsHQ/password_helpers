@@ -1,0 +1,15 @@
+{
+  "register": 
+    {
+      "url": ["https://www.stitchfix.com/signup"],
+      "container": "#root",
+      "email":  "#email"
+    },
+  "login":
+    {
+      "url": ["https://www.stitchfix.com/login"],
+      "container": "#frame-main-content",
+      "email": "#user_login",
+      "password": "#user_password"
+    }
+}

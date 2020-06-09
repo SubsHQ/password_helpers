@@ -1,0 +1,17 @@
+{
+  "register": {
+    "urlRegExp": "https://(?:mail.)*protonmail.com/create/?.*",
+    "container": ".signupUserForm-container",
+    "username": "#username",
+    "password": "#password"
+  },
+  "login": {
+    "urlRegExp": "https://(?:mail.)*protonmail.com/login/?.*",
+    "container": "#pm_login, div.pmpanel-login__inner",
+    "username": "#username",
+    "password": "#password"
+  },
+  "passwordResetLink": {
+    "url": ["https://mail.protonmail.com/help/reset-login-password"]
+  }
+}

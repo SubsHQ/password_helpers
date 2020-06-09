@@ -1,0 +1,14 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:reg.|www.)ebay.com\/reg\/PartialReg?.*",
+    "container": "#ppaRegForm",
+    "email": "#email_r",
+    "password": "#PASSWORD_r"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:signin.|www.)ebay.com\/?.*",
+    "container": "#DS6-MAIN-CONTENT > div.signin-social-container > div.signin-view-container",
+    "email": "#userid",
+    "password": "#pass"
+  }
+}

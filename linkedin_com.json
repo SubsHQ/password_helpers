@@ -1,0 +1,18 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.)*linkedin.com\/?.*",
+    "container": ".join-form",
+    "username": "#email-address",
+    "password": "#password"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*linkedin.com\/?.*",
+    "container": ".login__form",
+    "email": "input#email-address",
+    "username": "input#username",
+    "password": "input#password"
+  },
+  "passwordResetLink": {
+    "url": ["https://www.linkedin.com/checkpoint/rp/request-password-reset"]
+  }
+}

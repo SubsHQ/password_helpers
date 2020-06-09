@@ -1,0 +1,16 @@
+{
+  "register": 
+    {
+      "url": ["https://reg.ebay.com/reg/PartialReg"],
+      "container": "#PartialRegRedesignedFormDiv",
+      "email":  "#email",
+      "password": "#PASSWORD"
+    },
+  "login":
+    {
+      "url": ["https://signin.ebay.com/ws/eBayISAPI.dll"],
+      "container": "#ds6-card signin-card social",
+      "email": "#userid",
+      "password": "#pass"
+    }
+}

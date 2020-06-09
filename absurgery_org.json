@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)?absurgery.org\/?.*",
+    "container": "#frmform, div.container-fluid.content-area",
+    "username": "#q1_1",
+    "password": "#q2_2"
+  }
+}

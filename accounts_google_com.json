@@ -1,0 +1,17 @@
+{
+  "register": 
+    {
+      "urlRegExp": "https:\/\/accounts.google.com\/signin\/.*",
+      "container": "#this-doesnt-exist",
+      "email":  "#this-doesnt-exist-subshq",
+      "password": "#this-doesnt-exist-subshq",
+      "passwodRepete": "#this-doesnt-exist-subshq"
+    },
+  "login":
+    {
+      "urlRegExp": "https:\/\/accounts.google.com\/signin\/.*",
+      "container": "#this-doesnt-exist-subshq",
+      "email": "#this-doesnt-exist-subshq",
+      "password": "#this-doesnt-exist-subshq"
+    }
+}

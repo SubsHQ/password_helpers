@@ -1,0 +1,14 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.)?facebook.com(?:\/r.php)?\/?.*",
+    "container": "#reg_form_box",
+    "email": "[name='reg_email__'], #u_0_r",
+    "password": "[name='reg_passwd__'], #u_0_w"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)?facebook.com\/?.*",
+    "container": "#globalContainer, #menu_login_container, .menu_login_container, #login_form",
+    "email": "#email",
+    "password": "#pass"
+  }
+}

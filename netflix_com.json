@@ -1,0 +1,17 @@
+{
+  "register": {
+    "url": ["https://www.netflix.com/"],
+    "container": ".our-story-card-text",
+    "email": "#id_email",
+    "password": "#dontknow"
+  },
+  "login": {
+    "url": ["https://www.netflix.com/login"],
+    "container": ".hybrid-login-form-main",
+    "email": "#id_userLoginId",
+    "password": "#id_password"
+  },
+  "passwordResetLink": {
+    "url": ["https://www.netflix.com/LoginHelp"]
+  }
+}

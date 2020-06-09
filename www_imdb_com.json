@@ -1,0 +1,17 @@
+{
+  "register": 
+    {
+      "url": ["https://www.imdb.com/ap/register"],
+      "container": ".a-section",
+      "email":  "#ap_email",
+      "password": "#ap_emai",
+      "passwodRepete": "#ap_password_check"
+    },
+  "login":
+    {
+      "url": ["https://www.imdb.com/ap/signin"],
+      "container": ".a-spacing-none fwcim-form",
+      "email": "#ap_email",
+      "password": "#ap_password"
+    }
+}

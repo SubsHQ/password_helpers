@@ -1,0 +1,14 @@
+{
+    "register": {
+        "urlRegExp": "https:\/\/(?:accounts.)?google.com\/signup\/?.*",
+        "container": "form",
+        "username": "#username",
+        "password": "input[name='Passwd']"
+    },
+    "login": {
+        "urlRegExp": "https:\/\/(?:accounts.)?google.com\/?.*",
+        "container": "div.bCAAsb, form",
+        "username": "#identifierId",
+        "password": "input[name='password']"
+    }
+}

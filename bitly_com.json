@@ -1,0 +1,14 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:www.)bitly.com\/a\/sign_up?.*",
+    "container": "#sign-up",
+    "email": "#sign-up > div.susi-fields-wrapper > fieldset > input:nth-child(5)",
+    "password": "#sign-up > div.susi-fields-wrapper > fieldset > input.pw"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*bitly.com\/a\/sign_in?.*",
+    "container": "#sign-in",
+    "email": "#sign-in > div.susi-fields-wrapper > fieldset > input.text",
+    "password": "#sign-in > div.susi-fields-wrapper > fieldset > input.pw"
+  }
+}

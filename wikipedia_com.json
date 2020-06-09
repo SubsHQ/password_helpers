@@ -1,0 +1,16 @@
+{
+    "register": {
+        "urlRegExp": "https:\/\/(?:.*.)?wikipedia.org\/?.*",
+        "container": "form#userLogin2",
+        "email": "#wpEmail",
+        "username": "#wpName2",
+        "password": "#wpPassword2",
+        "passwordRepeat": "#wpPassword2"
+    },
+    "login": {
+        "urlRegExp": "https:\/\/(?:.*.)?wikipedia.org\/?.*",
+        "container": "#userloginForm",
+        "username": "#wpName1",
+        "password": "#wpPassword1"
+    }
+}

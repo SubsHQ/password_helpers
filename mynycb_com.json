@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)mynycb.com\/?.*",
+    "container": "#nycbLogin, .HeaderLoginDisplay",
+    "username": "#useridLoginWP, #useridPLoginWP",
+    "password": ""
+  }
+}

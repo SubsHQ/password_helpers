@@ -1,0 +1,14 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:myaccount.|www.)*nytimes.com\/auth\/register?.*",
+    "container": "#myAccountAuth",
+    "email": "#email",
+    "password": "#password"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/myaccount.nytimes.com\/auth\/login?.*",
+    "container": "#myAccountAuth",
+    "email": "#username",
+    "password": "#password"
+  }
+}

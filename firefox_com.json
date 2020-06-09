@@ -1,0 +1,15 @@
+{
+    "register": {
+        "urlRegExp": "https:\/\/(?:accounts.)firefox.com\/?.*",
+        "container": "#main-content",
+        "email": ".email",
+        "password": "#password",
+        "passwordRepeat": "#vpassword"
+    },
+    "login": {
+        "urlRegExp": "https:\/\/(?:accounts.)firefox.com\/?.*",
+        "container": "#main-content",
+        "email": ".email",
+        "password": "#password"
+    }
+}

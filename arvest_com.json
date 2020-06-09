@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*arvest.com\/?.*",
+    "container": "#aoblogon_userid_container, .home-page-login, .login-form-aob",
+    "username": "#olblogin_nav, #aoblogon_userid, #j_username_home",
+    "password": ""
+  }
+}

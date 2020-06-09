@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:online.)citi.com\/?.*",
+    "container": ".sign-on-form, #logInForm, .sign-on-module, .loginAdj",
+    "username": "#username",
+    "password": "#password"
+  }
+}

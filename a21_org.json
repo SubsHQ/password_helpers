@@ -1,0 +1,9 @@
+{
+  "login": 
+  {
+    "urlRegExp": "https:\/\/www.a21.org\/selfservice\/login.php.*",
+    "container": "div.form-block",
+    "email": "#login-email",
+    "password": "#password"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "register": {
+    "urlRegExp": "https:\/\/(?:secure.|www.)*telegraph.co.uk\/customer\/secure\/register?.*",
+    "container": "#___gatsby",
+    "email": "#email",
+    "password": "#password"
+  },
+  "login": {
+    "urlRegExp": "https:\/\/(?:secure.|www.)*telegraph.co.uk\/customer\/secure\/login?.*",
+    "container": "#___gatsby",
+    "email": "#email",
+    "password": "#password"
+  }
+}

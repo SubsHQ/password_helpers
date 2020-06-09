@@ -1,0 +1,8 @@
+{
+  "login": {
+    "urlRegExp": "https:\/\/(?:www.)*mtb.com\/?.*",
+    "container": ".login-form, .js-personal",
+    "username": "#OLB_UserId_Header, #OLB_UserID-Widget",
+    "password": "#OLB_Passcode_Header, OLB_Passcode_Widget"
+  }
+}
